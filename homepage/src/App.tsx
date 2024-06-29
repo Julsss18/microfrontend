@@ -1,9 +1,14 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Main from "./components/Main";
+import { ProviderWrapper } from "store/store";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <ProviderWrapper>
+      <div className="App">
+        <Main></Main>
+      </div>
+    </ProviderWrapper>
+  );
 }
 
 export default App;

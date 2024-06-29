@@ -1,0 +1,5 @@
+declare module 'charts/FlexibleLayout'
+declare module 'charts/ChartsCardContent'
+declare module 'charts/ChartsCard'
+declare module 'store/store'
+declare module 'interfaces/icharts'

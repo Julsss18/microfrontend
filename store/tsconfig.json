@@ -17,13 +17,10 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": false,
-    "jsx": "react-jsx",
-    "noImplicitAny" :false,
-    "typeRoots": [
-      "../node_modules/@types",
-      "../@types"
-    ]
+    "noEmit": false,
+    "jsx": "react-jsx"
   },
   "include": [
-    "src"],
+    "src"
+  ]
 }
